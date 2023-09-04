@@ -183,9 +183,9 @@ function handleEditPost() {
 }
 
 async function main() {
-  // Adiciona os eventos de click ao menu flutuante de logout
+
   showUserMenu();
-  // Renderiza todos os posts no feed (render.js)
+
   await renderAllPosts();
 }
 

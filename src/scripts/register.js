@@ -1,5 +1,3 @@
-// Desenvolva as funcionalidades de cadastro aqui
-
 import { createNewUser } from "./requests.js";
 
 const handleNewUser = () => {

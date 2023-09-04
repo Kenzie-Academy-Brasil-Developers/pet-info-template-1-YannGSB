@@ -1,4 +1,4 @@
-/* HEADER */
+
 .header {
   padding: 1rem;
 }
@@ -12,7 +12,6 @@
   margin-inline: auto;
 }
 
-/* HEADER NAV */
 .user-nav__container {
   display: flex;
   flex-direction: column;
@@ -89,12 +88,10 @@
   content: url(../assets/img/sign-out-alt-black.svg);
 }
 
-/* FEED */
 .feed__title {
   padding-block: 3rem;
 }
 
-/* POSTS */
 .posts {
   display: flex;
   flex-direction: column-reverse;
@@ -177,8 +174,6 @@
 ::-webkit-scrollbar-thumb {
   background-color: var(--brand-1);
 }
-
-/* MODAL */
 
 .modal {
   width: 50rem;

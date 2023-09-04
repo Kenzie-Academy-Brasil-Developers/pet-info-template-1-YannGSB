@@ -9,7 +9,7 @@ const requestHeaders = {
   Authorization: `Bearer ${token}`,
 };
 
-// Informações de usuário logado
+
 export async function getCurrentUserInfo() {
   const request = await fetch(`${baseUrl}/users/profile`, {
     method: "GET",
@@ -20,7 +20,7 @@ export async function getCurrentUserInfo() {
   return user;
 }
 
-// Listagem de posts
+
 export async function getAllPosts() {
   const request = await fetch(`${baseUrl}/posts`, {
     method: "GET",
@@ -30,7 +30,7 @@ export async function getAllPosts() {
   return posts;
 }
 
-// Desenvolva as funcionalidades de requisições aqui
+
 const createNewUser = async (requestBody) => {
   const newUser = await fetch(`${baseUrl}/users/create`, {
     method: "POST",

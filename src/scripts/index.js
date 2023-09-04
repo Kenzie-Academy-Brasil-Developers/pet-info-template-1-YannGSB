@@ -1,4 +1,3 @@
-// Desenvolva as funcionalidades de login aqui
 import { loginRequest } from "./requests.js";
 import { toast } from "./toast.js";
 
