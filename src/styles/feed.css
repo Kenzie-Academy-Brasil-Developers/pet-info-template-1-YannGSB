@@ -29,6 +29,7 @@
 
 .user__uniquename {
   padding: 1.38rem 1.06rem 0rem 1.06rem;
+  text-align: center;
 }
 
 .user__image {
@@ -36,6 +37,7 @@
   height: 2.5rem;
   border-radius: 50%;
   border: 0.0625rem solid var(--brand-1);
+  cursor: pointer;
 }
 
 .user__logout {
@@ -95,12 +97,12 @@
 /* POSTS */
 .posts {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 4rem;
   margin-bottom: 2rem;
 }
 
-.post {
+.post__article {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -174,4 +176,164 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--brand-1);
+}
+
+/* MODAL */
+
+.modal {
+  width: 50rem;
+  height: 31rem;
+  padding: 32px 24px;
+}
+
+.modal__title {
+  margin-left: 20px;
+}
+
+.modal__btn {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border-radius: 8px;
+  color: var(--gray-4);
+  background-color: var(--gray-6);
+  padding: 12px 18px;
+}
+
+.modal__btn:hover {
+  cursor: pointer;
+}
+
+.form__container {
+  width: 50rem;
+  border: none;
+}
+
+.form__input:focus::placeholder {
+  color: transparent;
+}
+
+.form__submit {
+  padding: 7px 20px;
+  width: 100px;
+  position: absolute;
+  right: 45px;
+  bottom: 30px;
+}
+
+.form__close {
+  padding: 7px 20px;
+  width: 100px;
+  position: absolute;
+  right: 165px;
+  bottom: 30px;
+  color: var(--gray-4);
+}
+
+.modalPost {
+  width: 50rem;
+  padding: 32px 24px;
+}
+
+.modalPost__btn {
+  position: absolute;
+  border-radius: 8px;
+  color: var(--gray-4);
+  background-color: var(--gray-6);
+  padding: 12px 18px;
+  right: 1rem;
+  top: 1.5rem;
+}
+
+.modalPost__btn:hover {
+  cursor: pointer;
+}
+
+.deletePost__container {
+  width: 50rem;
+  height: 15rem;
+}
+
+.deletePost__confirmation {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.deletePost__title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+.deletePost__paragraph {
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+
+.post__info {
+  margin-bottom: 1.5rem;
+}
+
+.modalPost__title {
+  margin-bottom: 1.5rem;
+}
+
+.deletePost__closeBtn {
+  position: absolute;
+  border-radius: 8px;
+  color: var(--gray-4);
+  background-color: var(--gray-6);
+  padding: 12px 18px;
+  right: 1rem;
+  top: 1.5rem;
+  cursor: pointer;
+}
+
+.deletePost__confirmBtn {
+  cursor: pointer;
+  position: absolute;
+  left: 8rem;
+  padding: 10px;
+}
+
+.deletePost__cancelBtn {
+  cursor: pointer;
+  color: var(--gray-4);
+  position: absolute;
+  left: 2rem;
+  padding: 7px;
+}
+
+.editPost__title {
+  margin-top: 0.625rem;
+  margin-left: 1.5rem;
+}
+
+.form__inputContent {
+  margin-bottom: 1.875rem;
+}
+
+.editPost__btn {
+  position: absolute;
+  border-radius: 8px;
+  color: var(--gray-4);
+  background-color: var(--gray-6);
+  padding: 12px 18px;
+  right: 1rem;
+  top: 1.5rem;
+  cursor: pointer;
+}
+
+.form__editSubmit {
+  width: 10rem;
+  padding: 0.625rem;
+  position: absolute;
+  right: 2.5rem;
+  bottom: 0.9375rem;
+}
+
+.form__close {
+  position: absolute;
+  right: 15rem;
+  bottom: 0.9375rem;
+  padding: 0.625rem;
 }
