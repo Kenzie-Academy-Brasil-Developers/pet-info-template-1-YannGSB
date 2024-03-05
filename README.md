@@ -24,4 +24,4 @@ Pet Info é uma plataforma que oferece informações sobre cuidados gerais com a
   - Botão excluir: abre modal de confirmação. Confirmação deleta a postagem via método DELETE na API. Notificação visual (toast) para deleção bem-sucedida.
 
 ## Demonstração
-[Acesse o Projeto](https://redesigned-chainsaw-p1yknnk.pages.github.io/)
+[Acesse o Projeto](https://kenzie-academy-brasil-developers.github.io/pet-info-template-1-YannGSB/)
